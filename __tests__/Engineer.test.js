@@ -1,30 +1,30 @@
-const Manager = require('../lib/Manager');
-const manager = new Manager('Nate', '2566131', 'natesmyth1@gmail.com', '13');
+const Engineer = require('../lib/Engineer');
+const engineer = new Engineer('Nate', '2566131', 'natesmyth1@gmail.com', 'thetryworks');
 
 test('test for constructor values', () => {
-    expect(manager.name).toBe('Nate');
-    expect(manager.id).toBe('2566131');
-    expect(manager.email).toBe('natesmyth1@gmail.com');
-    expect(manager.officeNumber).toBe('13');
+    expect(engineer.name).toBe('Nate');
+    expect(engineer.id).toBe('2566131');
+    expect(engineer.email).toBe('natesmyth1@gmail.com');
+    expect(engineer.githubUsername).toBe('thetryworks');
 })
 
 test('tests the getName() function', () => {
-    expect(manager.getName()).toBe('Nate');
+    expect(engineer.getName()).toBe('Nate');
 });
 
 test('tests the getId() function', () => {
-    expect(manager.getId()).toBe('2566131');
+    expect(engineer.getId()).toBe('2566131');
 });
 
 test('tests the getEmail() function', () => {
-    expect(manager.getEmail()).toBe('natesmyth1@gmail.com');
+    expect(engineer.getEmail()).toBe('natesmyth1@gmail.com');
 });
 
 test('tests the getOfficeNumber() function', () => {
-    expect(manager.getOfficeNumber()).toBe('13');
+    expect(engineer.getGithub()).toBe('thetryworks');
 });
 
 test('tests the getRole() function', () => {
-    expect(manager.getRole()).toBe('Manager');
+    expect(engineer.getRole()).toBe('Engineer');
 });
 

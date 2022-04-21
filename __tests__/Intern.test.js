@@ -25,6 +25,6 @@ test('tests the getSchool() function', () => {
 });
 
 test('tests the getRole() function', () => {
-    expect(manager.getRole()).toBe('Manager');
+    expect(intern.getRole()).toBe('Intern');
 });
 
