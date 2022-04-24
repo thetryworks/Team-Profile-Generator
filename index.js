@@ -53,7 +53,7 @@ const promptManager = () => {
         {
             type: 'input', 
             name: 'officeNumber',
-            message: 'Enter your offivce number (Required)',
+            message: 'Enter your office number (Required)',
             validate: officeNumber => {
                 if (officeNumber) {
                     return true;
