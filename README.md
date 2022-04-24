@@ -27,7 +27,8 @@ THEN I exit the application, and the HTML is generated
 
 ## Website
 https://github.com/thetryworks/Team-Profile-Generator
-![ALT Text](https://drive.google.com/file/d/1dq3SqT3uQOP011WUeN38SFtEJLrScBb8/view)
+## Video
+https://drive.google.com/file/d/1dq3SqT3uQOP011WUeN38SFtEJLrScBb8/view
 
 
 ## Contribution
