@@ -23,7 +23,7 @@ THEN I exit the application, and the HTML is generated
 *HTML
 *CSS
 *JavaScript
-*No
+*Node
 
 ## Website
 https://github.com/thetryworks/Team-Profile-Generator
